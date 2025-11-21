@@ -215,8 +215,8 @@ h2 {
     width:600px;
 	height: 337.5px;
  	position: fixed;
-	left: 45%;
-	top: 75%;
+	left: 15px;
+	top: 75px;
 }
 
 table { /*Events*/
@@ -348,6 +348,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
