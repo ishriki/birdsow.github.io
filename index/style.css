@@ -212,16 +212,16 @@ h2 {
 
 /*About*/
 #owl-container {
-    width:600%;
-    height:337.500%;
+    width:600px;
+    height:337px;
     position:absolute;
     left:74px;
     top:23%;
 }
 
 .owl_vid {
-    width:600%;
-    height:337.500%;
+    width:600px;
+    height:337px;
     position:absolute;
     left:74px;
     top:23%;
@@ -355,6 +355,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
