@@ -211,8 +211,15 @@ h2 {
 }
 
 .myowlVideo { /* place of the owl video - About*/
-	position: fixed;
-	right: 80px;
+  display: flex;
+  justify-content: flex-end; /* Aligns content to the right */
+  align-items: center; /* Centers content vertically */
+  position: absolute; /* Allows for precise positioning relative to parent */
+  top: 60%; /* Moves the top edge to the vertical center */
+  right: 0; /* Positions the right edge at the right of the parent */
+  transform: translateY(-50%); /* Adjusts vertical position to truly center */
+  width: 50%; /* Example width, adjust as needed */
+  height: 80%; /* Example height, adjust as needed */
 }	
 
 table { /*Events*/
@@ -344,6 +351,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
