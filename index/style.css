@@ -210,12 +210,12 @@ h2 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*About*/
-#owl-container {
+/* place the owl video *//*About*/
+#myowlVideo {
  	position: fixed;
-	left: 15px;
-	top: 75px;
-}
+	right: 80px;
+ 	top: 43%;
+}	
 
 table { /*Events*/
 	background-color: #fbfbfb;
@@ -346,6 +346,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
