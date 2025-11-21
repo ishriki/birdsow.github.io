@@ -214,8 +214,7 @@ h2 {
 	position: fixed;
 	right: 40px;
 	top: 23%;
-	width:400px;
-	height: 300px;
+	
 }	
 
 table { /*Events*/
@@ -347,6 +346,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
