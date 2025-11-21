@@ -16,6 +16,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+	height: webkit-fill-available;
 }
 body {
 	background-image: url(../gallery/bg_image.png);
@@ -26,7 +27,7 @@ body {
 	margin: 0; /* Removes default body margin */
 	height: 100vh; /* Ensures body takes full viewport height */
 	width: 100vw; /* Ensures body takes full viewport width */
-	overflow: hidden; /* Optional: prevents scrollbars if content overflows */
+	height: webkit-fill-available;
 }
 
 /*dropdown menu from an image - index*/
@@ -344,3 +345,4 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
