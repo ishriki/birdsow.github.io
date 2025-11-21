@@ -213,7 +213,7 @@ h2 {
 /*About*/
 #owl-container {
     width:600px;
-	hieght: 337.5px;
+	height: 337.5px;
  	position: fixed;
 	left: 45%;
 	top: 75%;
@@ -354,6 +354,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
