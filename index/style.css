@@ -1,0 +1,332 @@
+/*index*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+	background-image: url(../gallery/bg_image.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed; /* Optional: keeps image fixed during scroll */
+	margin: 0; /* Removes default body margin */
+	height: 100vh; /* Ensures body takes full viewport height */
+	width: 100vw; /* Ensures body takes full viewport width */
+	overflow: hidden; /* Optional: prevents scrollbars if content overflows */
+}
+
+/*dropdown menu from an image - index*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+	font-size: 2em;
+	z-index: 100;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #ffffffcf;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-top: 88.3px;
+	margin-left: 50px;
+	padding: 20px;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	opacity: 0.8;
+    transform: scale(0.9);
+    transition: all 0.6s ease;
+	background-color: #ffffffcf;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 10px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.dropdown-content a:hover {
+    background-color: #9fdfd0;
+}
+
+.rectangle {
+	position: absolute;
+	z-index: 1;
+    top: 0px; 
+    left: 0px;
+	width: 100vw; /* Set the desired width of the rectangle */
+	height: 120px; /* Set the desired height of the rectangle */
+	background-color: #ffffffcf; /* Example background color */
+	border: 2px solid #33333300; /* Optional: Add a border */
+}
+    
+.logo {
+	position: absolute;
+	top: 30px;
+	width: 300px;
+	left: 20px;
+	height: auto;
+	display: block;
+	z-index: 2;
+	float: left;
+	padding-top: px;
+	
+}
+.navbar {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+	background-color: #33333300;
+    z-index: 100; 
+    padding: 15px 30px;
+    box-sizing: border-box;
+	z-index: -1;
+}
+.navbar ul{
+	list-style-type: none;
+	overflow: hidden; 
+	
+}
+.navbar a{
+	padding: 15px;
+	display: block;
+	text-align: center;
+	z-index: 2;
+	font-size: 25px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar a:hover{
+	opacity: 0.7;
+	transform: scale(1.1);
+	transition: all 0.2s ease;
+	background-color: #9fdfd0;
+	font-size: medium;
+}
+.navbar li{
+	float: right; 
+}
+	
+.gallery-button {
+	position: fixed;
+	left: 45%;
+	top: 75%;
+}
+
+button {
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+
+.gallery-button:hover {
+	opacity: 0.8;
+	transform: scale(1.5);
+	font-size: medium;
+}
+
+
+/* Styles for the homepage background */
+body.homepage-bg {
+	background-image: url(../gallery/backgroundoff.png);
+	background-size: cover; /* Optional: Adjusts image size to cover the entire background */
+	background-repeat: no-repeat; /* Optional: Prevents image from repeating */
+	background-position: center; /* Optional: Centers the background image */
+}
+
+
+/* Styling a paragraph */
+p {
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+	margin-left: 40px;
+	margin-top: 270px;
+}
+
+/* Styling a heading */
+h1 {
+    color: black;
+	font-size: 37.8px;
+    z-index: 10;
+	position: absolute;
+	top: 23%; 
+	left: 8%; 
+	transform: translate(-50%, -50%); /* Adjust for element's own size }*/
+}
+
+/* Styling a heading */
+h2 {
+    color: black;
+	font-size: 18px;
+    z-index: 11;
+	position: absolute;
+	top: 40%; 
+	left: 20%; 
+	transform: translate(-50%, -50%); /* Adjust for element's own size }*/
+}
+
+ #footer {
+    background-color: #536018;
+    position: relative;
+    height: 10%;
+	width: 110%;
+    margin-top: 720px;
+    clear: both;
+}
+
+.footer-text {
+	text-align: center;
+	font-size: 9px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*About*/
+.owl{
+	position: fixed;
+	right: 40px;
+	top: 23%;
+}	
+
+table { /*Events*/
+	background-color: #fbfbfb;
+	text-align: center;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	position: fixed;
+	right: 72px;
+	top: 35%;
+	
+}
+
+table, th, td { /*Events*/
+    border: 1px solid black; /* Sets a 1px solid black border for the table and all its cells */
+	border-collapse: collapse; /* Collapses adjacent cell borders into a single border */
+	border: 2px line #000000; /* 2px dashed border with a specific color */
+	border-radius: 5px; /* Rounded corners */
+	border-bottom: 1px solid gray; /* Only a bottom border for table data cells */
+	background-color: #fbfbfb;
+	opacity: 80%;
+	text-align: center;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+}
+
+.academy-subheading { /*Academy*/
+	position: fixed;
+	left: 358px;
+	top: 39%;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+	
+.academy {/*Academy*/ 
+	position: fixed;
+	left: 72px;
+	top: 47%;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}	
+
+.community-subheading { /*community*/
+	position: fixed;
+	left: 280px;
+	top: 39%;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+	
+.community {/*community*/ 
+	position: fixed;
+	left: 72px;
+	top: 47%;
+	font-size: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	list-style-type: square; 
+}	
+
+.iframe-position {
+	position: fixed;
+	right: 40px;
+	top: 23%;
+}
+
+
+.photo-row { /*Gallery*/
+    display: flex;
+    justify-content: center;  /* centers the images */
+    gap: 20px;                /* space between images */
+	position: fixed;
+	right: 95px;
+	top: 35%;
+}
+
+.photo-row img { /*Gallery*/
+    width: 400px;  /* adjust to fit your design */
+    height: auto;
+    border-radius: 10px; /* optional: rounded corners */
+	z-index: 100;
+}
+
+.text-gallery { /*Gallery*/
+	position: fixed;
+	left: 180px;
+	top: 39%;
+	font-size: 35px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style; bold:
+}
+
+/*Contact Us*/
+.text-contact {
+	font-style: bold;
+	font-size: 30px;
+}
+
+.text-contact2 {
+	font-style: bold;
+	font-size: 35px;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.form-position {
+	position: fixed;
+	right: 40px;
+	top: 57%;
+	z-index: 100;
+
+}
+
+.form-style {
+	max-width: 100%;
+    margin: 50px auto; /* Center the form */
+    padding: 30px;
+    background-color: #536018;
+    border-radius: 19px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
