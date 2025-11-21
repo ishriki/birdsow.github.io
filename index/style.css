@@ -212,19 +212,19 @@ h2 {
 
 /*About*/
 #owl-container {
-    width:100%;
-    height:100%;
+    width:600%;
+    height:337.500%;
     position:absolute;
-    left:0;
-    top:0;
+    left:74px;
+    top:23%;
 }
 
 .owl_vid {
-    width:100%;
-    height:100%;
+    width:600%;
+    height:337.500%;
     position:absolute;
-    left:0;
-    top:0;
+    left:74px;
+    top:23%;
 }
 table { /*Events*/
 	background-color: #fbfbfb;
@@ -355,6 +355,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
