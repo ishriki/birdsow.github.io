@@ -209,14 +209,6 @@ h2 {
 	font-size: 9px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/*About*/
-.owl-video{
-	position: absolute;
-	left: 80%;
-	top: 23%;	
-	width: 600px;
-	height: 337.500px;
-}	
 
 table { /*Events*/
 	background-color: #fbfbfb;
@@ -347,6 +339,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
