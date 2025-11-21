@@ -211,7 +211,7 @@ h2 {
 }
 /*About*/
 owl-video{
-	position: fixed;
+	position: absolute;
 	left: 80%;
 	top: 23%;	
 	wwidt: 300px;
@@ -347,6 +347,7 @@ table, th, td { /*Events*/
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
 }
+
 
 
 
